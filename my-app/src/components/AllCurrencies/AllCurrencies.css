@@ -1,0 +1,23 @@
+.caption {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1em;
+    color: brown;
+    margin: 0;
+    border-bottom: 3px solid black;
+}
+
+.caption h3, .listOfCurrencies p {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.listOfCurrencies {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+    flex-direction: row;
+    font-size: 1em;
+}
